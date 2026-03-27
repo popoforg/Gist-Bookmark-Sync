@@ -33,8 +33,11 @@ function showStatus(message, type = 'info') {
   statusEl.textContent = message;
   statusEl.className = `status show ${type}`;
   
-  if (type === 'loading') {
-    statusEl.innerHTML = `<span class="loading-spinner">⏳</span> ${message}`;
+  // 3 秒后自动隐藏（错误消息除外）
+  if (type !== 'error') {
+    setTimeout(() => {
+      statusEl.className = 'status';
+    }, 3000);
   }
 }
 

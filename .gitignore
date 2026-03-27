@@ -23,3 +23,6 @@ Thumbs.db
 
 # Qwen 配置
 .qwen/
+
+# Git
+.git/
