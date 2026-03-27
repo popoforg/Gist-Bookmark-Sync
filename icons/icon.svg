@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- 书签形状 - 黑色线条，无填充 -->
+  <path d="M28 18 L100 18 L100 108 L64 85 L28 108 Z" 
+        fill="none" 
+        stroke="#333333" 
+        stroke-width="6"
+        stroke-linejoin="round"/>
+</svg>
